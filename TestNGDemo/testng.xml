@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="newtestdemo.Grouping"/>
+      <class name="newtestdemo.Assertdemo1"/>
+      <class name="newtestdemo.chromebrowser"/>
+      <class name="newtestdemo.Skipdemo"/>
+      <class name="newtestdemo.Multipletest"/>
+      <class name="newtestdemo.NewTest"/>
+      <class name="newtestdemo.Dependent"/>
+      <class name="newtestdemo.NewTest2"/>
+      <class name="newtestdemo.MultiBrowser"/>
+      <class name="newtestdemo.Dataproviderdemo"/>
+      <class name="newtestdemo.Assertsdemo"/>
+      <class name="datadrivendemo.DataProviderWithExcel_002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
